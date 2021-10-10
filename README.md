@@ -6,7 +6,7 @@
 ## Desarrollo del proyecto
 ### En la etapa de desarrollo de este proyecto realicé la conexión con la API de  [Unsplash Developers](https://unsplash.com/ "Unsplash Developers"), la cual pone a disposición una galería de imagenes para desarrolladores.
 
-### La App fue creada con Next.Js que es un framework de react y utilicé la librería de bootstrap para dar diseño a algunos componentges, sin embargo la mayoría del diseño fue creado con CSS3.
+### La App fue creada con Next.Js que es un framework de React y utilicé la librería de bootstrap para dar diseño a algunos componentes, sin embargo la mayoría del diseño fue creado con CSS3.
 
 ## Tips de Uso:
 ### Aunque el buscador funciona perfectamente si lo utilizas en español, encontrarás más imagenes si tu busqueda la realizas en Inglés.
