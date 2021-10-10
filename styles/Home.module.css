@@ -1,4 +1,30 @@
-.mb-3 {
-  margin-top: 50px;
+.body{
+  background-color: rgb(224, 255, 224);
+  height: 100%;
+  min-height: 100vh;
+}
+
+.title{
+  margin-left: 40%;
+  
+}
+
+.input {
+  padding-top: 40px;
   width: 50%;
+  margin-left: 25%;
+  display: flex;
+}
+
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between ;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  margin: 5% 15%; 
 }
