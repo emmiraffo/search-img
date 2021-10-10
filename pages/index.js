@@ -28,7 +28,7 @@ export default function SearchImage() {
   const cards = []
   if (state.result === null) {
     cards.push(<div className={style.title}>
-      <h3>Encuentra tu imagen</h3>
+      <h3></h3>
     </div>)
   } else if (state.result.errors) {
     cards.push(<div>
@@ -44,7 +44,7 @@ export default function SearchImage() {
 
   return <div className={style.body} >
     <div className={style.input}>
-      <input onKeyUp={(e) => { setState({ ...state, 'search': e.target.value }) }} type="text" className="form-control" placeholder="¿Qué buscas hoy?" aria-label="Recipient's username" aria-describedby="button-addon2" />
+      <input onKeyUp={(e) => { setState({ ...state, 'search': e.target.value }) }} type="text" className="form-control" placeholder="Encuentra tu imagen" aria-label="Recipient's username" aria-describedby="button-addon2" />
       <button onClick={searchImage} className="btn btn-success" type="button" id="button-addon2">Buscar</button>
     </div>
     <div className={style.box}>
