@@ -6,7 +6,6 @@
 
 .title{
   margin-left: 40%;
-  
 }
 
 .input {
@@ -20,11 +19,42 @@
 .box{
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between ;
+  padding-left: 18%;
+  width: 90%;
 }
 
 .card{
   width: 300px;
-  height: 400px;
-  margin: 5% 15%; 
+  margin: 5%; 
+  padding: 8px;
+}
+
+/* PARA VISTA MOBIL */
+
+@media (max-width: 600px) {
+.body {
+  margin: 0;
+  width: 100vw;
+}
+
+.title{
+  margin-left: 20%;
+}
+
+.input {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.box{
+  padding-left: 20px;
+  width: 100%;
+}
+
+.card{
+  width: 150px;
+  margin: 10px ; 
+  padding: 0;
+}
+
 }
